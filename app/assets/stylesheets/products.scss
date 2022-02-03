@@ -1,13 +1,16 @@
 main section.orders-show,
 main section.products-index,
-main section.categories-show {
+main section.categories-show,
+main section.categories-index {
 
+  .categories,
   .products {
     display:         flex;
     flex-direction:  row;
     flex-wrap:       wrap;
     justify-content: space-around;
 
+    .category,
     .product {
       // flex:      1;
       max-width: 260px;
