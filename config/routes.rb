@@ -2,6 +2,7 @@ Rails.application.routes.draw do
 
   root to: 'products#index'
   get '/about', to: 'about#index'
+  get '/invalid', to: 'invalid#index'
   
   get '/signup' => 'users#new'
   post '/users' => 'users#create'
