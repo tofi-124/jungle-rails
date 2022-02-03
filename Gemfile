@@ -5,6 +5,8 @@ ruby "2.3.5"
 gem 'rails', '4.2.6'
 # Use postgresql as the database for Active Record
 gem 'pg'
+# Use ActiveModel has_secure_password
+gem 'bcrypt', '~> 3.1.7'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
