@@ -28,6 +28,15 @@
         <li>
           <%= link_to 'About', :about %>
         </li>
+        <li>
+            <% if current_user %>
+               <li> <%= link_to "Logout", '/logout' %> </li>
+               <li> <%= current_user.name %>  </li>
+            <% else %>
+               <li> <%= link_to 'Login', '/login' %>   </li>
+               <li> <%= link_to 'Signup', '/signup' %> </li>
+            <% end %>
+        </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
        <li class="dropdown">
