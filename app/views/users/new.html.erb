@@ -3,9 +3,15 @@
   <p class="lead">
   <%= form_for :user, url: '/users' do |f| %>
   Name: <%= f.text_field :name %>
+  <br><br>
+  Last name: <%= f.text_field :last_name %>
+  <br><br>
   Email: <%= f.text_field :email %>
+  <br><br>
   Password: <%= f.password_field :password %>
+  <br><br>
   Password Confirmation: <%= f.password_field :password_confirmation %>
+  <br><br>
   </p>
   <hr class="my-4"> 
   <p class="lead">
