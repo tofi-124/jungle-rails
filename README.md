@@ -1,6 +1,35 @@
-# Jungle
+# Welcome to the Jungle 🌴🌴
 
-A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
+Jungle is a Ruby on Rails 4.2-based mini e-commerce application. 
+
+Many of the application's features were already in place when the codebase was inherited. I used the existing code style and approach to fix existing bugs and implement new features after analysing the codebase and becoming familiar with the Rails framework. 
+
+I also used RSpec, Poltergeist, and PhantomJS to implement model validation and feature spec tests.
+
+---
+
+## Tech Stack
+- Ruby
+- Rails with ERB Templating
+- PostgreSQL with Active Record ORM
+- SCSS
+- Bootstrap 
+- Testing: RSpec, Capybara, Poltergeist, PhantomJS, Database Cleaner
+
+--- 
+
+## Final Product
+
+### Products Page (Home)
+![Products Page](./docs/products_page.png)
+
+### Payment Page
+![Payment](./docs/payment.png)
+
+
+
+
+---
 
 ## Additional Steps for Apple M1 Machines
 
